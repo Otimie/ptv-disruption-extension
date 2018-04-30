@@ -7,5 +7,8 @@
 	"permissions": [
 		"notifications"
 	],
-	"version": "1.0.1"
+	"version": "1.0.1",
+	"options_ui": {
+		"page": "options.html"
+	}
 }
