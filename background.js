@@ -16,7 +16,7 @@ chrome.storage.sync.get(['disruptionUrls'], (result) => {
 	var disruptionUrls;
 
 	chrome.storage.onChanged.addListener((changes) => {
-		disruptionUrls = changes['disruptionUrls']
+		disruptionUrls = changes['disruptionUrls'].newValue;
 	});
 
 	if (result['disruptionUrls']) {
