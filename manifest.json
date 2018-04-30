@@ -5,7 +5,8 @@
 	"manifest_version": 2,
 	"name": "PTV Disruption Extension",
 	"permissions": [
-		"notifications"
+		"notifications",
+		"storage"
 	],
 	"version": "1.0.1"
 }
