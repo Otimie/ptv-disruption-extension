@@ -1,0 +1,11 @@
+{
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"manifest_version": 2,
+	"name": "PTV Disruption Extension",
+	"permissions": [
+		"notifications"
+	],
+	"version": "1.0.1"
+}
